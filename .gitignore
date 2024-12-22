@@ -1,0 +1,66 @@
+# Python files
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+*.swp
+
+# Django files
+*.log
+*.pot
+*.pyc
+*.sqlite3
+.env
+.env.*
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Byte-compiled, cached, or other generated files
+.cache/
+.coverage
+.coverage.*
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+*.wheel
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Static and media files
+staticfiles/
+media/
+
+# Testing-related files
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Migrations
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/__pycache__/
+*/migrations/*.log
+
+# Security and sensitive files
+secrets.json
+*.key
+.env
+.env.*
